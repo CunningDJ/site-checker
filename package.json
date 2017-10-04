@@ -1,0 +1,17 @@
+{
+  "name": "site-checker",
+  "version": "1.0.0",
+  "description": "Pings my websites intermittently to see if they're still up.  Alerts me if not.",
+  "main": "src/checker.js",
+  "scripts": {
+    "test": "nodemon src/checker.js",
+    "daemon": "forever start src/checker.js"
+  },
+  "author": "David J. Cunningham",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "nodemailer": "^4.0.1",
+    "request": "^2.81.0"
+  }
+}

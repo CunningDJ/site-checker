@@ -1,0 +1,5 @@
+{
+    "interval_minutes": 15,
+    "sender_email": "youremail@gmail.com",
+    "smtp_host": "smtp.gmail.com"
+}
