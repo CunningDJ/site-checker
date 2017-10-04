@@ -1,5 +1,5 @@
 # Site Checker
-Checks the websites every interval, and sends an email for any websites that are down (statu 404 on the base path/home page).
+Checks the websites every interval, and sends an email for any websites that are down (status 404 from a GET request on the given url).
 
 ## Instructions
 1. Run npm install to install the dependencies
